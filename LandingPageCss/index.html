@@ -7,9 +7,10 @@
     <title>Curso CSS</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/stilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
@@ -27,20 +28,195 @@
                     <a href="#" class="nav__links">Contacto</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">BLog</a>
+                    <a href="#" class="nav__links">Blog</a>
                 </li>
-
                 <img src="./images/close.svg" class="nav__close">
             </ul>
+
             <div class="nav__menu">
                 <img src="./images/menu.svg" class="nav__img">
             </div>
         </nav>
         <section class="hero__container container">
-            <h1 class="hero__tittle">Aprende CSS3 desde cero hasta dominarlo.</h1>
-            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso seras capaz de crear cualquier layout con CSS y crear tus propias animaciones</p>
-            <a href="" class="cta">Comienza ahora</a>
+            <h1 class="hero__title">Aprende CSS3 desde Cero hasta dominarlo.</h1>
+            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso 
+                serás capaz de crear cualquier layout de CSS y crear tus propias animaciones</p>
+            <a href="#" class="cta">Comienza ahora</a>
         </section>
     </header>
+
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Que aprenderás en este curso?</h2>
+            <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties, Position, Animaciones, Box Model y más)</p>
+            
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ut culpa dolores sint.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ut culpa dolores sint.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Sassx</h3>
+                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ut culpa dolores sint.</p>
+                </article>
+            </div>
+        </section>
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Curso completo de CSS3. Domina css de una vez por todas!</h2>
+                    <p class="knowledge__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, excepturi?</p>
+                    <a href="#" class="cta">Entra al curso</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/macbook.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="plan__name">Flexbox</p>
+                    <h3 class="plan__price">Free</h3>
+
+                    <div class="plan__items">
+                        <p class="plan__features">Flexbox</p>
+                        <p class="plan__features">Layouts</p>
+                        <p class="plan__features">Responsive</p>
+                    </div>
+                    <a href="#" class="plan__cta">Empieza ahora</a>
+                </div>
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es xxx, <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum corporis, ut modi asperiores soluta blanditiis alias, accusamus quod sequi fugit beatae! Voluptatem assumenda et ut pariatur nulla?</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es YYY, <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. quod sequi fugit beatae! Voluptatem assumenda et ut pariatur nulla?</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen, <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Earum corporis, ut modi asperiores soluta blanditiis alias, accusamus quod sequi fugit beatae! Voluptatem assumenda et ut pariatur nulla?</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, totam?</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es CSS?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?
+                            A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es CSS?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?
+                            A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es CSS?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?
+                            A aliquam recusandae ipsum, assumenda vel fugit perspiciatis labore doloribus nulla facere?</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
