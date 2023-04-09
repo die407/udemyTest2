@@ -406,7 +406,7 @@ body {
 }
 
 .footer__title, .footer__newsletter{
-    color: #fff;
+    /*color: #fff;*/
 }
 
 
@@ -414,7 +414,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
     padding-bottom: 60px;
 }
 
@@ -440,7 +440,7 @@ body {
 }
 
 .footer__input{
-    background-color: #fff;
+    /*background-color: #fff;*/
     height: 50px;
     display: block;
     padding-left: 10px;
@@ -459,7 +459,7 @@ body {
     background-color: #2091F9;
     border: none;
     font-size: 1rem;
-    color: #fff;
+    /*color: #fff;*/
     border-radius: 6px;
     cursor: pointer;
 }
@@ -467,7 +467,7 @@ body {
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .footer__copyright{
